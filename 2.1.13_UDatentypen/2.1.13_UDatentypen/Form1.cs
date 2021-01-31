@@ -17,13 +17,21 @@ namespace _2._1._13_UDatentypen
 			InitializeComponent();
 		}
 
-		private void Form1_Load(object sender, EventArgs e)
+		private void cmdAnzeigen_Click(object sender, EventArgs e)
 		{
+			int alter = 30;
+			float gehalt = 2000;
 
-		}
+			string name = "Benedikt Geisler";
+			string straße = "Mozartstraße 4";
+			string ort = "93049 Regensburg";
 
-		private void label1_Click(object sender, EventArgs e)
-		{
+			lblAlter.Text = alter.ToString();
+			lblGehalt.Text = gehalt.ToString();
+
+			lblName.Text = name.ToString();
+			lblStraße.Text = straße.ToString();
+			lblOrt.Text = ort.ToString();
 
 		}
 	}

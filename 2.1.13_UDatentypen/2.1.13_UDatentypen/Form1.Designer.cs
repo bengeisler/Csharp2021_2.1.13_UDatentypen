@@ -121,6 +121,7 @@ namespace _2._1._13_UDatentypen
 			this.cmdAnzeigen.TabIndex = 8;
 			this.cmdAnzeigen.Text = "Anzeigen";
 			this.cmdAnzeigen.UseVisualStyleBackColor = true;
+			this.cmdAnzeigen.Click += new System.EventHandler(this.cmdAnzeigen_Click);
 			// 
 			// Form1
 			// 
